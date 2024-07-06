@@ -115,24 +115,6 @@ test('adds -1 + -1 to equal -2', () => {
     npx jest --watchAll
     ```
 
-
-
-
-
-
-
-
-
-
-
-### 3. Executando os Testes
-
-Para executar os testes, use o comando:
-
-```sh
-npx jest
-```
-
 ### Estrutura Final do Projeto
 
 A estrutura do projeto deve ficar assim:
@@ -141,9 +123,10 @@ A estrutura do projeto deve ficar assim:
 your-project/
 ├── node_modules/
 ├── src/
-│   └── sum.ts
+│   └── main.ts
 ├── test/
-│   └── sum.test.ts
+│   └── main.test.ts
+├── jest.config.js
 ├── package.json
 ├── tsconfig.json
 └── yarn.lock
